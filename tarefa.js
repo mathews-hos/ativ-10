@@ -108,7 +108,7 @@ let saida15 = insforplana.ocomprimento
 console.log(insforplana, saida11, saida12, saida13, saida14, saida15, "opaaa")
 
 let insforcircular = new FormaCircular(7, 8)
-let saida21 = insforcircular.calcularVolume()
+let saida21 = insforcircular.calcularVolume() // isso retorna undefined, mas escreve no console, ou seja, executa o comando da classe mãe pois n foi sobreescrito por outro método
 let saida22 = insforcircular.calcularArea()
 let saida23 = insforcircular.calcularVolumeCilindro()
 let saida24 = insforcircular.calcularVolumeCone()
